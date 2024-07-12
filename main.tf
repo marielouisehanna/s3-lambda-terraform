@@ -1,3 +1,8 @@
+provider "aws" {
+  region = "eu-north-1"
+  profile = "default"
+}
+
 resource "aws_s3_bucket" "my_bucket" {
   bucket = "this-my-bucket-n1"
 }
